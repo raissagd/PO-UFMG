@@ -1,0 +1,41 @@
+Instance Details:
+Number of factories: 2
+Number of CDs: 3
+Number of clients: 5
+
+Factory capacities (si):
+[158 241]
+
+CD capacities (tk):
+[140 115 166]
+
+Client demands (dj):
+[56 56 74 51 54]
+
+Transport costs (factory -> CD) (cik):
+[[16 17 14]
+ [ 8  8 12]]
+
+Transport costs (CD -> client) (ckj):
+[[11 10  8 19 17]
+ [13 19 14 20  9]
+ [11 11  9  8 13]]
+
+Optimal solution found:
+Objective value: 5386.0
+
+Gurobi iterations: 11.0
+Gurobi runtime (seconds): 0.029999971389770508
+Factory -> CD flows (xik):
+xik[0,2] = 50.0
+xik[1,0] = 140.0
+xik[1,1] = 100.0
+xik[1,2] = 1.0
+
+CD -> Client flows (ykj):
+ykj[0,0] = 10.0
+ykj[0,1] = 56.0
+ykj[0,2] = 74.0
+ykj[1,0] = 46.0
+ykj[1,4] = 54.0
+ykj[2,3] = 51.0
